@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Great+Vibes&family=Lobster+Two:ital@1&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="./../styles/app.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="d-flex flex-sm-row align-items-center justify-content-between">
+                <nav id="navBar" class="navbar navbar-light navbar-expand-md mt-2 mt-md-0 ms-md-auto d-inline-flex">
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLink"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navLink">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="///Users/cherrylleanne/Desktop/Computer%20(HTML%20learning)/Third%20WebPage/index.html"
+                                    class="nav-link">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="file:///Users/cherrylleanne/Desktop/Computer%20(HTML%20learning)/Third%20WebPage/pages/about.html"
+                                    class="nav-link">ABOUT</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="file:///Users/cherrylleanne/Desktop/Computer%20(HTML%20learning)/Third%20WebPage/pages/contactUs.html"
+                                    class="nav-link">CONTACT ME</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <section class="container-fluid mt-5">
+        <div class="row px-5">
+            <div class="col-lg-4 ml-5">
+                <h3 class="my-lg-5">Contact Us</h3>
+                <ul>
+                    <li>Email: <a href="mailto:fashiontrends@gmail.com">fashiontrends@gmail.com</a></li>
+                    <li class="mt-5">Phone Number: <a href="tel:+1(647)-234-5678">+1 (647)-234-5678</a></li>
+                </ul>
+            </div>
+            <div id="userContact" class="col-lg-7 mr-5">
+                <h3 class="text-center my-lg-6">Let's Connect!</h3>
+                <form action="./submit" method="post">
+                    <div class="form-row">
+                        <div class="form-group col-lg-6 col-sm-12">
+                            <label for="FirstName">First Name:</label>
+                            <input type="text" name="firstName" id="FirstName" placeholder="First Name"
+                                class="form-control" required>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <label for="LastName">Last Name:</label>
+                            <input type="text" name="lastName" id="LastName" placeholder="Last Name"
+                                class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="Example: jdoe@email.com" id="email"
+                            class="form-control" size="64" maxlength="256" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea rows="4" placeholder="Type your message here..." class="form-control" id="message"
+                            name="message" required></textarea>
+                    </div>
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer1">
+            <div class="col mt-5 fixed-bottom">
+                <div class="align-items-center">
+                    <p class="text-center"><span class="copyright">&#169;</span>Anne Blogspot. All rights reserved.
+                        2022.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+
+
+</html>
