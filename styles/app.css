@@ -5,3 +5,36 @@ body {
 p {
   text-indent: 10%;
 }
+.footer1,
+.footer2 {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+:active {
+  color: magenta;
+}
+.favicon {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+}
+ul {
+  list-style-type: none;
+  color: gray;
+}
+.items a {
+  width: 36px;
+  height: 36px;
+  font-size: 20px;
+}
+li a {
+  list-style-type: none;
+  color: gray;
+}
+.card-body a {
+  color: blue;
+}
